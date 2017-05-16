@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba</title>
+
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css'>
+    <script src='fullcalendar/lib/jquery.min.js'></script>
+    <script src='fullcalendar/lib/moment.min.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='fullcalendar/gcal.js'></script>
+</head>
+<body>
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyAPLf7FOAYvhlJFtAZ3l1ARlh5Vx45dquA',
+        events: {
+            googleCalendarId: 'zapatapj@gmail.com'
+
+
+            
+        }
+    });
+});
+
+</script>
+
+<div id="calendar">
+              
+            </div>
+
+
+</body>
+</html>    
+
+
+    
+
+
+
+
+

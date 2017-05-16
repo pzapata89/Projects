@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  background: #eee;
+  border-right: 1px solid #555;
+  height: 100%;
+  left: 0;
+  padding: 50px;
+  position: fixed;
+  top: 0;
+  transition: all linear .2s;
+  width: 200px;
+}
+#sidebar .arrow-box {
+  background: #eee;
+  border: 1px solid #555;
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  left: 49%;
+  position: absolute;
+  text-align: center;
+  transform: rotate(90deg);
+  width: 40px;
+  border-bottom: none;
+  top: 100px;
+  left: 189px;
+}
+#sidebar .arrow-box .arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  position: absolute;
+  width: 0;
+  top: 5px;
+  left: 8px;
+  width: 10px;
+}
+#sidebar .arrow-box .arrow.dir-one {
+  border-top: 10px solid #555;
+}
+#sidebar .arrow-box .arrow.dir-two {
+  border-bottom: 10px solid #555;
+}
+
+#content {
+  padding-left: 200px;
+  padding-top: 10px;
+  position: relative;
+  transition: all linear .2s;
+  width: 100%;
+  z-index: -1000;
+}
+
+#guts {
+  border: 1px solid #555;
+  font-family: "Baskerville", Georgia, serif;
+  margin: 0 auto;
+  padding: 30px;
+  width: 70%;
+}
