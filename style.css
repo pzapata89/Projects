@@ -118,17 +118,18 @@ color: #ffffff;
        }
 
     .navbar-brand {
-        background-image: url(logo.png);
+        background-image: url(logo23.png);
         background-repeat: no-repeat;
         position: relative;
-        width: 100px;
+        width: 130px;
+        height: 78px;
         margin: 10% !important;
     }
 
 
     
 ul.nav {
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 14px;
     color:#ffffff;
     }
@@ -414,11 +415,10 @@ border-radius: 5px !important ;
 background-image: url(anillo.png);
 background-size: contain;
 background-repeat: no-repeat;
-width: 100%
-background-repeat: no-repeat;
 margin-top: 37px;
 padding-right: 0px !important;
 padding-left: 0px !important;
+margin-bottom: -40px;
 }
 
 
