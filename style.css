@@ -337,7 +337,19 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 550px;
+  height: 1150px;
+  background-color: #ffffff;
+  padding: 4%;
+  color: #a4a3a3;
+  text-align: justify;
+}
+
+.cajaV {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-bottom: 15px solid #004d74;
+  margin-left: 0px;
+  height: 610px;
   background-color: #ffffff;
   padding: 4%;
   color: #a4a3a3;
@@ -396,7 +408,7 @@ border-radius: 5px !important ;
 
 .people {
     background-color: transparent !important; 
-   height: 500px !important;
+   height: 600px !important;
 }
 
 .foto {
