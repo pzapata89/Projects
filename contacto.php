@@ -26,6 +26,8 @@ include("library/class_email_sender.php");
 </head>
 <body>
 <div class="main8">
+<!--Botonera-->
+  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,11 +36,10 @@ include("library/class_email_sender.php");
         <span class="icon-bar"></span>  
         <span class="icon-bar"></span>                       
       </button>
-     <ul class="nav navbar-nav navbar-right">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-        </ul>
+     <ul class="nav navbar-nav navbar-right">
       <li class="dropdown"><a class="dropdown-toggle letra-menu" data-toggle="dropdown" data-hover="dropdown" href="#">Acerca de Nosotros<span class="caret"></span></a>        
          <ul class="dropdown-menu">
           <li><a href="valores.html">Nuestros Valores</a></li>
@@ -47,8 +48,8 @@ include("library/class_email_sender.php");
         </li>
       <li class="dropdown"><a class="dropdown-toggle letra-menu" data-toggle="dropdown" data-hover="dropdown" href="#">Nuestros Servicios<span class="caret"></span></a>        
          <ul class="dropdown-menu">
-          <li><a href="#">Manejo de Capitales</a></li>
-          <li><a href="#">Seguros</a></li>
+          <li><a href="patrimonios.html">Manejo de Patrimonios</a></li>
+          <li><a href="seguros.html">Seguros Internacionales</a></li>
         </ul></li>
       <li><a class="letra-menu" href="blog.html">Blog</a></li>
 
@@ -63,12 +64,14 @@ include("library/class_email_sender.php");
           <li><a href="https://www.netxinvestor.com/web/netxinvestor/login" target="_blank">Pershing</a></li>
           <li><a href="https://gdcdyn.interactivebrokers.com/sso/Login" target="_blank">Interactive Broker</a></li>
           <li><a href="https://www.bmiportal.com/Account/Login?ReturnUrl=%2f" target="_blank">BMI</a></li>
+        </ul>
       </li>
 
     </ul>
          </div>
   </div>
 </nav>
+<!--Botonera-->
 <!--contenido-->
 <div class="container-fluid">
    <div class="row">
@@ -135,42 +138,46 @@ include("library/class_email_sender.php");
 </div>
 <!--Footer-->
 <footer>
-<div class="container">
+  <div class="container">
 
     <div class="row">
       <div class="col-md-3 col-sm-6 footerleft ">
         <ul class="footer-ul">
         <li><h4 class="tope">Servicios</h4></li>
-        <li>Manejo de Capitales</li>
-        <li>Seguros</li>
+        <li>Manejo de Patrimonios</li>
+        <li>Seguros Internacionales</li>
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
         <ul class="footer-ul">
-        <li><h4 class="tope">Cliente Login</h4></li>
-        <ul class="post">
+        <li><h4 class="tope">Client Login</h4></li>
           <li><a href="https://www.netxinvestor.com/web/netxinvestor/login" target="_blank"> Pershing</a></li>
           <li><a href="https://gdcdyn.interactivebrokers.com/sso/Login" target="_blank"> Interactive Broker</a></li>
           <li><a href="https://www.bmiportal.com/Account/Login?ReturnUrl=%2f" target="_blank">BMI</a></li>
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <ul class="post">
         <li><h4 class="tope">Contáctanos</h4></li>
-        <li><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi - 110085, INDIA</li></br>
-        <li><i class="fa fa-phone"></i> Phone (Ccs) : +58 9999 999 999</li></br>
-        <li><i class="fa fa-envelope"></i> E-mail : info@w212asesores.com</li></br>
+        <li><i class="fa fa-map-pin"></i> Avenida Luis de Camoens, Sector La Guairita
+    Centro Gerencial Loma Vista, Oficinas 5-2 y 5-4
+    Municipio Sucre, Edo. Miranda</li></br>
+        <li><i class="fa fa-phone"></i> Phone (Ccs) : +58 212 514-5633
+                          +58 212 514-5634
+    </li></br>
+        <li><i class="fa fa-envelope"></i> E-mail : info@212asesores.com</li></br>
         </ul>
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
-          <div class="fb-xfbml-parse-ignore">
       <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
             <blockquote cite="#">Social</a></blockquote>
                   <ul class="contact">
-
-                    <li><a class="icon fa fa-facebook-square fa-2x" href="#" target="blank"><span class="label"></span></a></li>
-                    <li><a class="icon fa fa-twitter-square fa-2x" href="#" target="blank"><span class="label"></span></a></li>
-                    <li><a class="icon fa fa-instagram fa-2x" href="#" target="blank"><span class="label"></span></a></li>
-                    <li><a class="icon fa fa-linkedin-square fa-2x" href="#" target="blank"><span class="label"></span></a></li>
+                    <li><a class="icon fa fa-facebook-square fa-2x" href="https://www.facebook.com/212asesores/?ref=br_rs" target="blank"><span class="label"></span></a></li>
+                    <li><a class="icon fa fa-twitter-square fa-2x" href="https://twitter.com/212asesores" target="blank"><span class="label"></span></a></li>
+                    <li><a class="icon fa fa-instagram fa-2x" href="https://www.instagram.com/212asesores/" target="blank"><span class="label"></span></a></li>
+                    <li><a class="icon fa fa-linkedin-square fa-2x" href="https://www.linkedin.com/company-beta/16213981/" target="blank"><span class="label"></span></a></li>
                   </ul>
+
           </div>
         </div>
       </div>
@@ -186,12 +193,12 @@ include("library/class_email_sender.php");
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">
-</div>
         <li><a href="#">Manejo de Patrimonios</a></li>
         <li><a href="#">Seguros Internacionales</a></li>
       </ul>
     </div>
   </div>
+</div>
 <!--End of footer-->
 </div>
 <!--Script Zone-->
