@@ -411,7 +411,7 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 1500px;
+  height: 1920px;
   background-color: #ffffff;
   padding: 5%;
   color: #a4a3a3;
@@ -743,7 +743,7 @@ textarea {
     margin: 0px !important;
   }
 
-  /*estilos de prueba*/
+
 
 .box {
     overflow: hidden;
@@ -768,4 +768,14 @@ textarea {
 .right {
     float: right;
     width: 50%;
+}
+
+
+.titulosAzul {
+  color: #004e74;
+
+}
+
+.links {
+  color: #004e74;
 }
