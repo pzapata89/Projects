@@ -418,6 +418,19 @@ border-radius: 5px !important ;
   text-align: justify;
 }
 
+.cajaSeguros {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-bottom: 15px solid #004d74;
+  margin-left: 0px;
+  height: 1600px;
+  background-color: #ffffff;
+  padding: 5%;
+  color: #a4a3a3;
+  text-align: justify;
+
+}
+
 .people {
     background-color: transparent !important; 
    height: 600px !important;
@@ -725,13 +738,13 @@ textarea {
     line-height: 1.33;
 
 
-    -webkit-column-rule: 5px solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
-    -moz-column-rule: 5px solid rgb(75, 180, 149)  ; /* Firefox */
-    column-rule: 5px solid rgb(75, 180, 149)  ;
+    -webkit-column-rule: 5px solid rgb(0, 78, 116)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 5px solid rgb(0, 78, 116)  ; /* Firefox */
+    column-rule: 5px solid rgb(0, 78, 116)  ;
     
-    -webkit-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Chrome, Safari, Opera */
-    -moz-column-rule: 0.5rem solid rgb(75, 180, 149)  ; /* Firefox */
-    column-rule: 0.5rem solid rgb(75, 180, 149)  ;
+    -webkit-column-rule: 0.5rem solid rgb(0, 78, 116)  ; /* Chrome, Safari, Opera */
+    -moz-column-rule: 0.5rem solid rgb(0, 78, 116)  ; /* Firefox */
+    column-rule: 0.5rem solid rgb(0, 78, 116)  ;
     
     margin: 20px;
     margin: 2rem;
@@ -762,7 +775,7 @@ textarea {
 }
 
 .left .content {
-    border-right: 5px solid #4BB495  ;
+    border-right: 5px solid #004e74  ;
 }
 
 .right {
