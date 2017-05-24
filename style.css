@@ -337,7 +337,7 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 1150px;
+  height: 1215px;
   background-color: #ffffff;
   padding: 4%;
   color: #a4a3a3;
@@ -349,7 +349,7 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 610px;
+  height: 640px;
   background-color: #ffffff;
   padding: 4%;
   color: #a4a3a3;
@@ -450,12 +450,12 @@ border-radius: 5px !important ;
 .sponsors{
 
 background-image: url(anillo.png);
-background-size: contain;
+background-size: 100% 100%;
 background-repeat: no-repeat;
-margin-top: 37px;
+margin-top: 20px;
 padding-right: 0px !important;
 padding-left: 0px !important;
-margin-bottom: -40px;
+margin-bottom: -5%;
 }
 
 
@@ -580,7 +580,8 @@ margin-bottom: -40px;
 /*footer*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-footer { background-color:#004e74; min-height:350px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#004e74; min-height:350px; font-family: 'Open Sans', sans-serif; padding-top: 4%; }
+.footer2 {background-color:#004e74; min-height:350px; font-family: 'Open Sans', sans-serif; padding-top: 0% !important; }
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -729,32 +730,11 @@ textarea {
 
 /*nuevos estilos*/
 
-.two-columns {
-    
-  
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-    line-height: 1.33;
 
 
-    -webkit-column-rule: 5px solid rgb(0, 78, 116)  ; /* Chrome, Safari, Opera */
-    -moz-column-rule: 5px solid rgb(0, 78, 116)  ; /* Firefox */
-    column-rule: 5px solid rgb(0, 78, 116)  ;
-    
-    -webkit-column-rule: 0.5rem solid rgb(0, 78, 116)  ; /* Chrome, Safari, Opera */
-    -moz-column-rule: 0.5rem solid rgb(0, 78, 116)  ; /* Firefox */
-    column-rule: 0.5rem solid rgb(0, 78, 116)  ;
-    
-    margin: 20px;
-    margin: 2rem;
-    text-align: justify;
-
-  }
-
-  .margen {
+  /*.margen {
     margin: 0px !important;
-  }
+  }*/
 
 
 
@@ -765,22 +745,23 @@ textarea {
 .content {
     font-size: 15px;
     line-height: 20px;
-    padding: 0 20px;
     text-align: justify;
+    padding-right: 20px;
 }
 
-.left {
+.left2 {
     float: left;
     width: 50%;
 }
 
-.left .content {
+.left2 .content {
     border-right: 5px solid #004e74  ;
 }
 
-.right {
+.right2 {
     float: right;
     width: 50%;
+    padding: 0 20px;
 }
 
 
@@ -791,4 +772,8 @@ textarea {
 
 .links {
   color: #004e74;
+}
+
+.palabras  {
+ 
 }
