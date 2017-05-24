@@ -411,7 +411,7 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 1920px;
+  height: 2080px;
   background-color: #ffffff;
   padding: 5%;
   color: #a4a3a3;
@@ -423,7 +423,7 @@ border-radius: 5px !important ;
   margin-bottom: 100px;
   border-bottom: 15px solid #004d74;
   margin-left: 0px;
-  height: 1600px;
+  height: 1300px;
   background-color: #ffffff;
   padding: 5%;
   color: #a4a3a3;
@@ -551,6 +551,14 @@ margin-bottom: -5%;
   .ocultar-nav
   {
     display: none;
+  }
+}
+
+@media (max-width: 766px)
+{
+  .cajaSeguros
+  {
+    height: 100%;
   }
 }
 

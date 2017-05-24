@@ -20,6 +20,8 @@ include("library/class_email_sender.php");
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
 
 </head>
 
@@ -129,9 +131,12 @@ include("library/class_email_sender.php");
     <br>
     <br>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7846.98259982198!2d-66.8225164261841!3d10.461881620141694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5804fa4b4a43%3A0x673e1f46f03451b8!2sCentro+Gerencial+Loma+Vista!5e0!3m2!1ses!2sve!4v1492302772878" width="100%" height="70%" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi - 110085, INDIA</p>
-        <p><i class="fa fa-phone"></i> Phone (Ccs) : +58 9999 999 999</p>
-        <p><i class="fa fa-envelope"></i> E-mail : info@w212asesores.com</p>
+    <p><i class="fa fa-map-pin"></i> Avenida Luis de Camoens, Sector La Guairita
+    Centro Gerencial Loma Vista, Oficinas 5-2 y 5-4
+    Municipio Sucre, Edo. Miranda</p>
+        <p><i class="fa fa-phone"></i> Teléfono (Ccs) : +58 212 514-5633
+                          +58 212 514-5634</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@212asesores.com</p>
     </div>
     </div>
 </div>    
