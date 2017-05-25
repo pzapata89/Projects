@@ -562,6 +562,22 @@ margin-bottom: -5%;
   }
 }
 
+@media (max-width: 766px)
+{
+  .cajaNosotros
+  {
+    height: 100%;
+  }
+}
+
+@media (max-width: 766px)
+{
+  .cajaV
+  {
+    height: 100%;
+  }
+}
+
 @media (max-width: 760px)
 {
   .caja
@@ -784,4 +800,9 @@ textarea {
 
 .palabras  {
  
+}
+
+.espacio {
+
+  padding-top: 0px;
 }
