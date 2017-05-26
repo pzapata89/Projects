@@ -610,6 +610,15 @@ margin-bottom: -5%;
 
 }
 
+@media (max-width: 760px)
+{
+  .caja4
+  {
+    height: 980px;
+  }
+
+}
+
 /*footer*/
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
